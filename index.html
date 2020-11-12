@@ -484,11 +484,13 @@ getwd()</code></pre>
 dir()</code></pre>
 <pre><code>## [1] &quot;figures&quot;                   &quot;index.html&quot;               
 ## [3] &quot;index.Rmd&quot;                 &quot;organizando_projeto.Rproj&quot;
-## [5] &quot;processed_data&quot;            &quot;raw_data&quot;</code></pre>
+## [5] &quot;processed_data&quot;            &quot;raw_data&quot;                 
+## [7] &quot;test.pdf&quot;                  &quot;test.Rmd&quot;</code></pre>
 <pre class="r"><code>list.files()</code></pre>
 <pre><code>## [1] &quot;figures&quot;                   &quot;index.html&quot;               
 ## [3] &quot;index.Rmd&quot;                 &quot;organizando_projeto.Rproj&quot;
-## [5] &quot;processed_data&quot;            &quot;raw_data&quot;</code></pre>
+## [5] &quot;processed_data&quot;            &quot;raw_data&quot;                 
+## [7] &quot;test.pdf&quot;                  &quot;test.Rmd&quot;</code></pre>
 <pre class="r"><code># list contents of raw_data folder
 dir(&quot;raw_data&quot;)</code></pre>
 <pre><code>## [1] &quot;ebird_brazil.csv&quot;</code></pre>
@@ -1635,7 +1637,6 @@ bird_data_narrower %&gt;%
 <h2><span class="header-section-number">5.5</span> Relatório da Análise de Dados (03-data_analysis.Rmd)</h2>
 <p>Para relatórios, R Markdown permite a integração de prosa e código R no mesmo arquivo. É possível construir relatórios em HTML (como essa página que você está lendo) sem instalar nenhum software ou pacote extra. Para relatórios em pdf, é necessário instalar o pacote <code>TinyText</code>.</p>
 <pre class="r"><code>install.packages(&quot;tinytext&quot;)
-library(tinytex)
 tinytex::install_tinytex()</code></pre>
 <p>Algumas coisas para considerar. Primeiro, formatação de texto:</p>
 <pre><code># A level-one heading
