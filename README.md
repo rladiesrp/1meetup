@@ -8,3 +8,5 @@ Hora: das 19h30 às 20h30 (horário de Brasília)
 Vídeo: https://www.youtube.com/watch?v=XdS3sAqKAyY&t=757s
 
 Sobre Adriana Picoral: https://ischool.arizona.edu/people/adriana-picoral
+
+Meetup: https://www.meetup.com/rladies-ribeirao-preto/events/274165285/  
